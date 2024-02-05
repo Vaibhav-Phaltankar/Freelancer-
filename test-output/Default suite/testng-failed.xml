@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Amazon.LinkedinLogin">
+      <class name="linkedin.login">
         <methods>
-          <include name="loginPage"/>
+          <include name="LaunchBrowser"/>
+          <include name="LoginPage"/>
         </methods>
-      </class> <!-- Amazon.LinkedinLogin -->
+      </class> <!-- linkedin.login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
